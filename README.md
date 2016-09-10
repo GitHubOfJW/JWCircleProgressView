@@ -3,57 +3,8 @@
  
 = 用法 
 
-self.circleProgressView.startText =  @"🌞 00:00";//☼
+![](https://github.com/GitHubOfJW/JWCircleProgressView/blob/master/Source/code.png)
 
-self.circleProgressView.endText = @"🌛 11:11";//☽
-
-self.circleProgressView.centerText = @"88";
-
-[self.circleProgressView starAnimationWithPartCount:5 partPercentBlock:^CGFloat(NSUInteger partIndex) {
-switch (partIndex%4) {
-case 0:
-return 0.1;
-break;
-case 1:
-return 0.18;
-break;
-case 2:
-return 0.1;
-break;
-case 3:
-return 0.15;
-break;
-default:
-return 0.2;
-break;
-}
-
-} parImageBlock:^UIImage * _Nonnull(NSUInteger partIndex) {
-switch (partIndex%6) {
-case 0:
-return [UIImage imageNamed:@"p_blue"];
-break;
-case 1:
-return [UIImage imageNamed:@"p_orange"];
-break;
-case 2:
-return [UIImage imageNamed:@"p_purple"];
-break;
-case 3:
-return [UIImage imageNamed:@"p_red"];
-break;
-case 4:
-return [UIImage imageNamed:@"p_lightBlue"];
-break;
-case 5:
-return [UIImage imageNamed:@"p_green"];
-break;
-default:
-return [UIImage imageNamed:@"p_green"];
-break;
-}
-} duration:0.5];
- 
 
 
 效果图
