@@ -1,9 +1,8 @@
 # JWCircleProgressView
 一个扩展性非常强大的进度控件,利用的图片做的进度，效果有你自己的图片决定
-
-\\\
-#import <UIKit/UIKit.h>
  
+
+
 @interface JWCircleProgressView : UIControl
 
 /**
@@ -80,10 +79,11 @@ NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_END
 
 @end
-\\\
 
-= 用法
-\\\
+
+
+= 用法 
+
 self.circleProgressView.startText =  @"🌞 00:00";//☼
 
 self.circleProgressView.endText = @"🌛 11:11";//☽
@@ -134,7 +134,7 @@ return [UIImage imageNamed:@"p_green"];
 break;
 }
 } duration:0.5];
-\\\
+ 
 
 
 效果图
