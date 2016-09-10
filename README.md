@@ -3,6 +3,11 @@
  
 = 用法 
 
+进度条的效果完全由你自己的图片决定
+
+分段 角度 方向  全部都可以自定义
+
+
 ![](https://github.com/GitHubOfJW/JWCircleProgressView/blob/master/Source/README.png)
 
 
