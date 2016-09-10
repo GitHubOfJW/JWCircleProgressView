@@ -3,7 +3,7 @@
  
 = 用法 
 
-![](https://github.com/GitHubOfJW/JWCircleProgressView/blob/master/Source/code.png)
+![](https://github.com/GitHubOfJW/JWCircleProgressView/blob/master/Source/README.png)
 
 
 
